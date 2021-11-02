@@ -1,0 +1,88 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    text-decoration-line: underline;
+  text-decoration-style: double;
+}
+nav{
+    background-color: greenyellow;
+    padding: 30px;
+
+}
+input
+{
+    text-align: center;
+    font-size: 30px;
+}
+.forbill
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+label
+{
+    font-size: 30px;  
+    display: flex;
+    justify-content: center; 
+}
+
+select
+{
+    font-size: 20px;
+    background-color: rgb(215, 250, 135);
+}
+hr{
+    padding: 5px;
+    background-color: black;
+}
+#bill_section
+{
+    background-color: aqua;
+}
+#service
+{
+    background-color: orange;
+}
+#service
+{
+    display: flex;
+    justify-content: center; 
+}
+#tip
+{
+    background-color: gold;
+}
+.button-1{
+    font-size: 30px;  
+    display: flex;
+    justify-content: center; 
+}
+#people
+{
+    background-color: rgb(255, 0, 200);
+}
+#but-1,.su
+{
+    display: flex;
+    justify-content: center;
+}
+.button-1
+{
+background-color: grey;
+border-radius: 40px;
+}
+#bill_amount1
+{
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-size: 30px;
+}

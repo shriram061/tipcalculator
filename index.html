@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.jpg" />
+</head>
+<body>
+    <header>
+    <nav>
+        <h1>TIP CALCULATOR</h1>
+    </nav>
+    </header>
+    <hr>
+    
+    <div id="bill_section"><form>
+        <br>
+        <p class="forbill"><u>How much was your bill ?</u></p>
+        <br>
+        <label for="bill_amount">$
+      <input
+        type="number"
+        id="bill_amount"
+        onclick="cal1()"
+        placeholder="Enter Amount"
+      /></label></form>
+      <br>
+    </div>
+        
+
+<hr>
+<div id="service">
+    <br><form>
+        <br>
+    <p class="forbill"><u>How was your service ?</u>
+    <br>
+    <select name="service" id="service_percent" onclick="cal1()">
+        <br>
+        <option disabled>Rate the service</option>
+        <option value="0">Poor</option>
+        <option value="10">Good</option>
+        <option value="20">Better</option>
+        <option value="30">Excellent</option>
+    </select></p></form>
+    <br>
+    <br>
+</div>
+
+<hr>
+<div id="people"><form>
+    <br>
+    <p class="forbill"><u>How many people are sharing the bill ?</u></p>
+    <br>
+    <label for="people_no">
+  <input
+    type="number"
+    id="people_no"
+    onclick="cal1()"
+    placeholder="Enter Number People"
+  />People</label>
+  <br>
+</form>
+<div class="su">
+    <button onclick="cal1()" class="button-1" type="submit" id="but-1">Calculate</button>
+</div>
+  <br>
+</div>
+
+<hr>
+<div id="tip">
+    <br>
+    <p class="forbill"><u>Tip Amount</u></p>
+    <br>
+    <label for="bill_amount1" >$
+        <button type="number" id="bill_amount1"></button>each.</label>
+        <br>
+</div>
+
+<hr>
+    <script src="js/script.js"></script>
+</body>
+</html>
