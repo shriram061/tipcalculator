@@ -74,6 +74,8 @@ hr{
     font-size: 30px;  
     display: flex;
     justify-content: center; 
+    color: azure;
+    padding: 3px;
 }
 /* #people
 {
