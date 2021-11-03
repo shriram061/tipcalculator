@@ -2,24 +2,27 @@
 {
     padding: 0%;
     margin: 0%;
+    /* color: beige; */
     
 }
 h1
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration-line: underline;
   text-decoration-style: double;
+  color: white;
 }
 nav{
-    background-color: greenyellow;
+    /* background-color: blue; */
+    
     padding: 30px;
 
 }
 input
 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .forbill
 {
@@ -39,36 +42,45 @@ select
     font-size: 20px;
     background-color: rgb(215, 250, 135);
 }
-hr{
-    padding: 5px;
-    background-color: black;
+#w
+{
+    padding: 6px;
+    background-color: rgb(255, 153, 0);
 }
-#bill_section
+hr{
+    padding: 3px;
+    border-style: dashed;
+    border-color: yellow;
+    background-color: rgb(229, 255, 0);
+}
+/* #bill_section
 {
     background-color: aqua;
 }
 #service
 {
     background-color: orange;
-}
+} */
 #service
 {
     display: flex;
     justify-content: center; 
 }
-#tip
+/* #tip
 {
     background-color: gold;
-}
+} */
 .button-1{
     font-size: 30px;  
     display: flex;
     justify-content: center; 
 }
-#people
+/* #people
 {
     background-color: rgb(255, 0, 200);
-}
+    background-image: url(../images/img2.jpg);
+    
+} */
 #but-1,.su
 {
     display: flex;
@@ -85,4 +97,14 @@ border-radius: 40px;
     color: white;
     border-style: none;
     font-size: 30px;
+}
+#z
+{
+    background-image: url(../images/img1.jpg);
+}
+main
+{
+    background-image: url(../images/img6.jpg);
+    background-size:1000vh auto;
+    background-repeat: no-repeat;
 }
