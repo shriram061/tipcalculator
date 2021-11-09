@@ -66,8 +66,9 @@ hr{
 }
 .button-1
 {
-background-color: grey;
+background-color: green;
 border-radius: 40px;
+padding: 16px;
 border-color: brown;
 }
 #bill_amount1
@@ -90,9 +91,4 @@ main
     background-image: url(../images/vv.webp);
     /* background-size:auto auto; */
     background-repeat: no-repeat;
-}
-body
-{
-    /* background-image: url(../images/img.png); */
-
 }
