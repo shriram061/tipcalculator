@@ -2,8 +2,6 @@
 {
     padding: 0%;
     margin: 0%;
-    /* color: beige; */
-    
 }
 h1
 {
@@ -11,32 +9,28 @@ h1
     font-size: 40px;
     text-decoration-line: underline;
   text-decoration-style: double;
-  color: white;
+  color: rgb(95, 3, 3);
 }
 nav{
-    /* background-color: blue; */
-    
     padding: 30px;
-
 }
 input
 {
     text-align: center;
     font-size: 20px;
+    background-color: rgb(215, 250, 135);
 }
 .forbill
 {
     text-align: center;
     font-size: 30px;
 }
-
 label
 {
     font-size: 30px;  
     display: flex;
     justify-content: center; 
 }
-
 select
 {
     font-size: 20px;
@@ -50,26 +44,14 @@ select
 hr{
     padding: 3px;
     border-style: dashed;
-    border-color: yellow;
-    background-color: rgb(229, 255, 0);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(3, 17, 54);
 }
-/* #bill_section
-{
-    background-color: aqua;
-}
-#service
-{
-    background-color: orange;
-} */
 #service
 {
     display: flex;
     justify-content: center; 
 }
-/* #tip
-{
-    background-color: gold;
-} */
 .button-1{
     font-size: 30px;  
     display: flex;
@@ -77,12 +59,6 @@ hr{
     color: azure;
     padding: 3px;
 }
-/* #people
-{
-    background-color: rgb(255, 0, 200);
-    background-image: url(../images/img2.jpg);
-    
-} */
 #but-1,.su
 {
     display: flex;
@@ -103,11 +79,20 @@ border-color: brown;
 }
 #z
 {
-    background-image: url(../images/img1.jpg);
+    /* background-image: url(../images/qw.webp); */
+     /* background-size:2vw 6vh;  */
+     background-color: bisque;
+    /* background-repeat: no-repeat; */
 }
 main
 {
-    background-image: url(../images/img6.jpg);
-    background-size:1000vh auto;
+    /* background-image: url(../images/img6.jpg); */
+    background-image: url(../images/vv.webp);
+    /* background-size:auto auto; */
     background-repeat: no-repeat;
+}
+body
+{
+    /* background-image: url(../images/img.png); */
+
 }
